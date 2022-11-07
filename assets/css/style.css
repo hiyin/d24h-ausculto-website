@@ -123,7 +123,7 @@ h6 {
 #topbar {
   background: #fff;
   height: 40px;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.5s;
   z-index: 996;
 }
@@ -134,7 +134,7 @@ h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444444;
+  color: #105c59;
   transition: 0.3s;
 }
 
@@ -154,11 +154,12 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #437099;
-  padding-left: 15px;
+  color: #3da795;
+  padding-left: 14px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
+  font-size: 24px;
 }
 
 #topbar .social-links a:hover {
@@ -263,8 +264,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
-  color: #2c4964;
+  font-weight: bold;
+  font-size: 20px;
+  color: #105c59;
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -273,7 +275,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -307,7 +309,7 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   text-transform: none;
   color: #082744;
@@ -315,7 +317,7 @@ h6 {
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .navbar .dropdown ul a:hover,
@@ -487,12 +489,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
-  color: #2c4964;
+  color: #105c59;
 }
 
 #hero h2 {
-  color: #2c4964;
+  color: #105c59;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -513,7 +514,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #3291e6;
+  background: #fff;
+  color: #89ccc2;
 }
 
 @media (min-width: 1024px) {
@@ -573,7 +575,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2c4964;
+  color: #105c59;
 }
 
 .section-title h2::before {
@@ -798,8 +800,8 @@ section {
 
 .about .video-box {
   background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
+  min-height: 480px;
+  min-width: 880px; 
 }
 
 .about .play-btn {
@@ -1771,7 +1773,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #89ccc2;
+  background: #3da795;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1784,7 +1786,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #1c84e3;
+  background: #89ccc2;
   color: #fff;
   text-decoration: none;
 }
